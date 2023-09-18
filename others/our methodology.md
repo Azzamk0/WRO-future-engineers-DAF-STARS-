@@ -2,6 +2,7 @@ Our Methodology
 ====
 
 Hardware Setup:
+
 Connect Ultrasonic Sensors:
 
 Attach the 2 front ultrasonic sensors and 2 ultrasonic sensors on both sides to the appropriate ports on the Spike Prime hub.
