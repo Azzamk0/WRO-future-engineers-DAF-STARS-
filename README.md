@@ -1,4 +1,4 @@
-Engineering materials
+The function of each sensor module and it's relation to the program
 ====
 
 Ultrasonic Sensor Module: Interfaces with the front ultrasonic sensors to detect obstacles and determine distances from the front.
