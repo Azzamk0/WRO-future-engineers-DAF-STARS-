@@ -9,6 +9,8 @@ Gyro Sensor Module: Interfaces with the gyro sensor to ensure accurate movement,
 
 Motor Control Module: Controls the movement and steering motors based on inputs from the ultrasonic and gyro sensor modules.
 
+Camera: The HuskyLens AI camera module, integral to the robot's navigation system, discerns two specific obstacles: a red pillar and a green pillar. The identification of the red pillar prompts a right turn, while detection of the green pillar results in a left turn. This procedure, enabled by the HuskyLens' advanced color recognition algorithm, ensures efficient navigation through the operational environment, illustrating the camera's critical role in the robot's decision-making process.
+
 To build/compile/upload the code to the vehicle's controllers:
 
 Compilation: Use a suitable integrated development environment (IDE) or toolchain compatible with the microcontroller onboard the vehicle. Compile the code, ensuring it's free of errors and optimized for the platform.
