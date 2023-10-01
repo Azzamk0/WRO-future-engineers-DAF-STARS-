@@ -1,52 +1,25 @@
-Our Methodology
-====
+Methodology for Robot Engineering and Programming
+This section outlines the methodology implemented for the engineering and programming of our robot, detailing the sequential steps taken from the initial design to the programming phase.
 
-Hardware Setup:
+1. 3D Modeling
+The first phase of our project involved designing a 3D model of the robot. This provided a visual representation of the robot's design and allowed for the identification and correction of any structural issues prior to physical assembly. The model was carefully crafted to accommodate all necessary components, such as the ultrasonic sensor, AI camera, color sensor, gyro sensor, servo, DC motor, and motor controller.
 
-Connect Ultrasonic Sensors:
+2. Circuit Diagramming
+Following the 3D modeling, we designed a comprehensive circuit diagram. This diagram served as a crucial roadmap for the electrical connections of the robot, detailing the interconnections between the power source, sensors, motor controller, and the motors themselves. The circuit diagram was meticulously reviewed to ensure the compatibility of the components and the safety of the system.
 
-Attach the 2 front ultrasonic sensors and 2 ultrasonic sensors on both sides to the appropriate ports on the Spike Prime hub.
-Connect Motors:
+3. Circuit Assembly
+After finalizing the circuit diagram, we embarked on the physical assembly of the circuit. Each component, including the ultrasonic sensor, AI camera, color sensor, gyro sensor, servo, DC motor, and motor controller, was connected according to the circuit diagram. During this phase, careful attention was paid to the accuracy of the connections to prevent any potential electrical faults.
 
-Connect the motor for steering and the motor for movement to their respective ports on the Spike Prime hub.
-Software Configuration:
+4. Programming
+Upon successful assembly of the circuit, we proceeded with programming the robot. We utilized advanced programming algorithms, functions, and logic to control the robot's actions and responses. The programming phase involved:
 
-Install Spike Prime App:
+Sensor Programming: We programmed the ultrasonic sensor for distance measurement, the AI camera for object and color recognition, the color sensor for color detection, and the gyro sensor for orientation and rotation information.
 
-Download and install the Spike Prime app on your device (smartphone, tablet, etc.) to program and control the Spike Prime hub.
-Create a New Project:
+Motor Control Programming: The servo and DC motor were programmed in tandem with the motor controller to manage the robot's movements based on sensor input.
 
-Open the Spike Prime app and create a new project for your competition vehicle.
+Logic Implementation: Programming logic was developed to instruct the robot on how to react to different sensor inputs, thus enabling it to navigate autonomously in its environment.
 
-Add and Configure Ultrasonic Sensors:
+5. Testing and Refinement
+The final step involved comprehensive testing of the robot to ensure its performance matches our expectations. This involved running the robot in controlled environments and making necessary adjustments to both the physical components and the programming code.
 
-Drag and drop ultrasonic sensor blocks into the programming workspace for the front and side sensors.
-Configure the blocks to read sensor data and use it for obstacle detection and navigation.
-
-Add and Configure Motor Blocks:
-
-Drag and drop motor blocks into the programming workspace to control steering and movement based on sensor input.
-Configure the blocks to control the motors for smooth steering and movement.
-
-Program Logic:
-
-Write the necessary code to implement the behavior and functionality required for the competition. This may include obstacle avoidance, navigation, and any other specific tasks.
-Test the Program:
-
-Test the program on your Spike Prime hub to ensure the sensors and motors are functioning correctly and the vehicle is behaving as expected.
-Uploading Files and Datasets (if required):
-
-Connecting to an SBC/SBM:
-
-If using a Single Board Computer (SBC) or Single Board Microcontroller (SBM), connect it to the Spike Prime hub following the manufacturer's instructions.
-Uploading Files and Datasets:
-
-Transfer any required files, datasets, or additional resources to the SBC/SBM to enhance the functionality or performance of your competition vehicle.
-Communication Protocol (if required):
-Define Communication Protocol:
-
-If needed, define a communication protocol between the Spike Prime hub and the SBC/SBM for data exchange and coordination.
-Implement Communication Logic:
-
-Write the necessary code on both the Spike Prime hub and the SBC/SBM to facilitate communication according to the defined protocol.
-Ensure thorough testing and debugging of the vehicle's performance and functionality to ensure it meets the competition requirements.
+Through this systematic approach of designing, assembling, programming, and testing, we successfully engineered a robot that can autonomously navigate its environment, demonstrating the effective application of our advanced programming algorithms and logic.
